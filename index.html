@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pasta de Magic</title>
+  <meta name="description" content="Uma pasta virtual para folhear uma coleção de cartas de Magic.">
+  <meta name="theme-color" content="#14100e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='5' y='2' width='22' height='28' rx='3' fill='%235a2024'/%3E%3Cpath d='M16 9l6 7-6 7-6-7z' fill='%23d9b56c'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/binder.css">
+</head>
+<body>
+  <main class="stage">
+    <div class="book" id="book" data-view="closed" aria-label="Pasta de cartas">
+      <div class="backboard">
+        <p class="backboard-note" id="endNote"></p>
+      </div>
+      <div class="rings" aria-hidden="true"><i></i><i></i><i></i></div>
+    </div>
+    <p class="status-message" id="statusMessage" hidden></p>
+  </main>
+
+  <nav class="controls" aria-label="Navegação da pasta">
+    <button class="control" id="prev" type="button" aria-label="Página anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <span class="indicator" id="indicator" aria-live="polite">Capa</span>
+    <button class="control" id="next" type="button" aria-label="Próxima página">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+    <button class="control control-sound" id="sound" type="button" aria-pressed="true" aria-label="Som da folha">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 10v4h4l5 4V6L8 10z"/>
+        <path class="sound-waves" d="M16.5 9a4 4 0 010 6M19 6.5a8 8 0 010 11"/>
+        <path class="sound-off" d="M16.5 9.5l5 5m0-5l-5 5"/>
+      </svg>
+    </button>
+  </nav>
+
+  <footer class="legal">
+    Conteúdo de fã não oficial, permitido pela Política de Conteúdo de Fãs. Não é aprovado nem endossado pela Wizards.
+    Partes dos materiais usados são propriedade da Wizards of the Coast. ©Wizards of the Coast LLC.
+    Dados e imagens: <a href="https://scryfall.com" target="_blank" rel="noopener">Scryfall</a>.
+  </footer>
+
+  <dialog class="zoom" id="zoom" aria-labelledby="zoomName">
+    <div class="zoom-layout">
+      <div class="zoom-stage">
+        <div class="zoom-card" id="zoomCard">
+          <div class="zoom-face zoom-front"><img id="zoomFront" alt=""><span class="foil-layer"></span></div>
+          <div class="zoom-face zoom-back"><img id="zoomBack" alt=""><span class="foil-layer"></span></div>
+        </div>
+      </div>
+      <div class="zoom-info" id="zoomInfo">
+        <h2 id="zoomName"></h2>
+        <p class="zoom-original" id="zoomOriginal"></p>
+        <dl class="zoom-facts" id="zoomFacts"></dl>
+        <div class="zoom-actions">
+          <a class="price-link" id="priceLink" target="_blank" rel="noopener">Ver preço na Liga Magic</a>
+          <button class="ghost-button" id="zoomFlip" type="button">Virar carta</button>
+          <button class="ghost-button" id="zoomClose" type="button">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="js/binder.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "e768c957-3a1f-42f5-853a-96942f645df5",
+    "name": "Lightning Bolt",
+    "printed_name": null,
+    "set": "m11",
+    "set_name": "Magic 2011",
+    "collector_number": "149",
+    "lang": "en",
+    "rarity": "common",
+    "foil": false,
+    "qty": 4,
+    "images": [
+      "img/cards/e768c957-3a1f-42f5-853a-96942f645df5.jpg"
+    ]
+  },
+  {
+    "id": "29bb1b85-9444-4bfa-b622-092a6873631c",
+    "name": "Counterspell",
+    "printed_name": null,
+    "set": "7ed",
+    "set_name": "Seventh Edition",
+    "collector_number": "67",
+    "lang": "en",
+    "rarity": "common",
+    "foil": false,
+    "qty": 2,
+    "images": [
+      "img/cards/29bb1b85-9444-4bfa-b622-092a6873631c.jpg"
+    ]
+  },
+  {
+    "id": "4cbc6901-6a4a-4d0a-83ea-7eefa3b35021",
+    "name": "Sol Ring",
+    "printed_name": null,
+    "set": "c21",
+    "set_name": "Commander 2021",
+    "collector_number": "263",
+    "lang": "en",
+    "rarity": "uncommon",
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/4cbc6901-6a4a-4d0a-83ea-7eefa3b35021.jpg"
+    ]
+  },
+  {
+    "id": "73542493-cd0b-4bb7-a5b8-8f889c76e4d6",
+    "name": "Llanowar Elves",
+    "printed_name": null,
+    "set": "m19",
+    "set_name": "Core Set 2019",
+    "collector_number": "314",
+    "lang": "en",
+    "rarity": "common",
+    "foil": false,
+    "qty": 3,
+    "images": [
+      "img/cards/73542493-cd0b-4bb7-a5b8-8f889c76e4d6.jpg"
+    ]
+  },
+  {
+    "id": "b6bafa7b-62a4-477c-b2f5-6b9d26c6cbf4",
+    "name": "Swords to Plowshares",
+    "printed_name": null,
+    "set": "ema",
+    "set_name": "Eternal Masters",
+    "collector_number": "32",
+    "lang": "en",
+    "rarity": "uncommon",
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/b6bafa7b-62a4-477c-b2f5-6b9d26c6cbf4.jpg"
+    ]
+  },
+  {
+    "id": "11bf83bb-c95b-4b4f-9a56-ce7a1816307a",
+    "name": "Delver of Secrets // Insectile Aberration",
+    "printed_name": null,
+    "set": "isd",
+    "set_name": "Innistrad",
+    "collector_number": "51",
+    "lang": "en",
+    "rarity": "common",
+    "foil": false,
+    "qty": 2,
+    "images": [
+      "img/cards/11bf83bb-c95b-4b4f-9a56-ce7a1816307a.jpg",
+      "img/cards/11bf83bb-c95b-4b4f-9a56-ce7a1816307a-back.jpg"
+    ]
+  },
+  {
+    "id": "1cfdd410-391b-4b71-8139-f5a30653097a",
+    "name": "Tarmogoyf",
+    "printed_name": null,
+    "set": "mm2",
+    "set_name": "Modern Masters 2015",
+    "collector_number": "165",
+    "lang": "en",
+    "rarity": "mythic",
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/1cfdd410-391b-4b71-8139-f5a30653097a.jpg"
+    ]
+  },
+  {
+    "id": "1fa890a0-5bb4-43b8-a2f6-e58f48208a34",
+    "name": "Academy Loremaster",
+    "printed_name": "Mestra do Saber da Academia",
+    "set": "dmu",
+    "set_name": "Dominaria United",
+    "collector_number": "40",
+    "lang": "pt",
+    "rarity": "rare",
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/1fa890a0-5bb4-43b8-a2f6-e58f48208a34.jpg"
+    ]
+  },
+  {
+    "id": "5fe2d063-a9b1-4693-9841-923210bf09d7",
+    "name": "Serra Angel",
+    "printed_name": null,
+    "set": "m15",
+    "set_name": "Magic 2015",
+    "collector_number": "273",
+    "lang": "en",
+    "rarity": "uncommon",
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/5fe2d063-a9b1-4693-9841-923210bf09d7.jpg"
+    ]
+  },
+  {
+    "id": "ac506c17-adc8-49c6-9d8d-43db7cb1ec9d",
+    "name": "Liliana of the Veil",
+    "printed_name": null,
+    "set": "isd",
+    "set_name": "Innistrad",
+    "collector_number": "105",
+    "lang": "en",
+    "rarity": "mythic",
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/ac506c17-adc8-49c6-9d8d-43db7cb1ec9d.jpg"
+    ]
+  }
+]
