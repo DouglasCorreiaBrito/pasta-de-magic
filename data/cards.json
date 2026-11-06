@@ -8,6 +8,12 @@
     "collector_number": "149",
     "lang": "en",
     "rarity": "common",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "R"
+    ],
     "foil": false,
     "qty": 4,
     "images": [
@@ -23,6 +29,12 @@
     "collector_number": "67",
     "lang": "en",
     "rarity": "common",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "U"
+    ],
     "foil": false,
     "qty": 2,
     "images": [
@@ -38,6 +50,10 @@
     "collector_number": "263",
     "lang": "en",
     "rarity": "uncommon",
+    "types": [
+      "artifact"
+    ],
+    "colors": [],
     "foil": false,
     "qty": 1,
     "images": [
@@ -53,6 +69,12 @@
     "collector_number": "314",
     "lang": "en",
     "rarity": "common",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
     "foil": false,
     "qty": 3,
     "images": [
@@ -68,6 +90,12 @@
     "collector_number": "32",
     "lang": "en",
     "rarity": "uncommon",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "W"
+    ],
     "foil": true,
     "qty": 1,
     "images": [
@@ -83,6 +111,12 @@
     "collector_number": "51",
     "lang": "en",
     "rarity": "common",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "U"
+    ],
     "foil": false,
     "qty": 2,
     "images": [
@@ -99,6 +133,12 @@
     "collector_number": "165",
     "lang": "en",
     "rarity": "mythic",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
     "foil": true,
     "qty": 1,
     "images": [
@@ -114,6 +154,12 @@
     "collector_number": "40",
     "lang": "pt",
     "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "U"
+    ],
     "foil": false,
     "qty": 1,
     "images": [
@@ -129,6 +175,12 @@
     "collector_number": "273",
     "lang": "en",
     "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
     "foil": false,
     "qty": 1,
     "images": [
@@ -144,6 +196,12 @@
     "collector_number": "105",
     "lang": "en",
     "rarity": "mythic",
+    "types": [
+      "planeswalker"
+    ],
+    "colors": [
+      "B"
+    ],
     "foil": false,
     "qty": 1,
     "images": [

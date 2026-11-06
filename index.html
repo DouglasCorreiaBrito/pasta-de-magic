@@ -33,6 +33,10 @@
     <button class="control" id="next" type="button" aria-label="Próxima página">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
     </button>
+    <button class="control control-filter" id="filterToggle" type="button" popovertarget="filters" aria-label="Filtrar cartas">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16l-6 8v5l-4 2v-7z"/></svg>
+      <span class="filter-badge" id="filterBadge" hidden></span>
+    </button>
     <button class="control control-sound" id="sound" type="button" aria-pressed="true" aria-label="Som da folha">
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M4 10v4h4l5 4V6L8 10z"/>
@@ -47,6 +51,15 @@
     Partes dos materiais usados são propriedade da Wizards of the Coast. ©Wizards of the Coast LLC.
     Dados e imagens: <a href="https://scryfall.com" target="_blank" rel="noopener">Scryfall</a>.
   </footer>
+
+  <section class="filters" id="filters" popover aria-label="Filtros da pasta">
+    <div id="filterGroups"></div>
+    <div class="filter-footer">
+      <span class="filter-count" id="filterCount" aria-live="polite"></span>
+      <button class="ghost-button" id="filterClear" type="button" hidden>Limpar</button>
+      <button class="ghost-button" type="button" popovertarget="filters" popovertargetaction="hide">Ver cartas</button>
+    </div>
+  </section>
 
   <dialog class="zoom" id="zoom" aria-labelledby="zoomName">
     <div class="zoom-layout">

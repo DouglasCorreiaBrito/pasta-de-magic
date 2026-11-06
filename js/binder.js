@@ -6,6 +6,32 @@ const SOUND_KEY = 'pasta:som';
 const RARITIES = { common: 'Comum', uncommon: 'Incomum', rare: 'Rara', mythic: 'Mítica', special: 'Especial', bonus: 'Bônus' };
 const LANGUAGES = { en: 'Inglês', pt: 'Português', es: 'Espanhol', fr: 'Francês', de: 'Alemão', it: 'Italiano', ja: 'Japonês' };
 
+// Dentro de um grupo vale qualquer opção marcada. Entre grupos, a carta precisa atender a todos.
+const FILTERS = [
+  {
+    key: 'type',
+    title: 'Tipo',
+    options: { creature: 'Criatura', instant: 'Instantânea', sorcery: 'Feitiço', artifact: 'Artefato', enchantment: 'Encantamento', planeswalker: 'Planeswalker', land: 'Terreno', battle: 'Batalha' },
+    matches: (card, type) => card.types.includes(type),
+  },
+  {
+    key: 'color',
+    title: 'Cor',
+    options: { W: 'Branco', U: 'Azul', B: 'Preto', R: 'Vermelho', G: 'Verde', C: 'Incolor', M: 'Multicolorida' },
+    matches: (card, color) => {
+      if (color === 'C') return card.colors.length === 0;
+      if (color === 'M') return card.colors.length > 1;
+      return card.colors.includes(color);
+    },
+  },
+  {
+    key: 'rarity',
+    title: 'Raridade',
+    options: RARITIES,
+    matches: (card, rarity) => card.rarity === rarity,
+  },
+];
+
 const $ = (id) => document.getElementById(id);
 const book = $('book');
 const indicator = $('indicator');
@@ -16,7 +42,8 @@ const soundButton = $('sound');
 const mobile = matchMedia('(max-width: 767px)');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 
-let cards = [];
+let allCards = [];
+let cards = []; // as cartas que passam nos filtros, na ordem da pasta
 let pageCount = 0;
 let leafCount = 0; // a capa é a folha 0
 
@@ -82,7 +109,9 @@ function createSheet(pageNumber, side) {
   sheet.className = `face face-${side} sheet`;
   const start = (pageNumber - 1) * POCKETS_PER_PAGE;
   for (let slot = 0; slot < POCKETS_PER_PAGE; slot += 1) {
-    sheet.append(createPocket(cards[start + slot]));
+    const pocket = createPocket(cards[start + slot]);
+    pocket.style.setProperty('--slot', slot);
+    sheet.append(pocket);
   }
   return sheet;
 }
@@ -193,6 +222,7 @@ function canStep(direction) {
 
 function indicatorText() {
   if (page === 0) return 'Capa';
+  if (cards.length === 0) return 'Nenhuma carta';
   if (mobile.matches) return `Página ${page} de ${pageCount}`;
 
   const spread = spreadOf(page);
@@ -219,6 +249,118 @@ function render() {
     front.inert = index !== spread || (mobile.matches && side === 'left');
     back.inert = index !== spread - 1 || (mobile.matches && side === 'right');
   }
+}
+
+// Filtros
+
+const filterPanel = $('filters');
+const filterClear = $('filterClear');
+const filterBadge = $('filterBadge');
+const activeFilters = new Map(FILTERS.map(({ key }) => [key, new Set()]));
+let filtersClosedAt = 0;
+
+function passesFilters(card) {
+  return FILTERS.every(({ key, matches }) => {
+    const selected = activeFilters.get(key);
+    return selected.size === 0 || [...selected].some((value) => matches(card, value));
+  });
+}
+
+function rebuildBook(targetPage) {
+  for (const leaf of leaves.values()) leaf.remove();
+  leaves.clear();
+
+  pageCount = Math.max(1, Math.ceil(cards.length / POCKETS_PER_PAGE));
+  leafCount = 1 + Math.ceil(pageCount / 2);
+  page = targetPage;
+  $('endNote').textContent = `Fim da pasta. ${collectionSummary()}`;
+
+  syncLeaves();
+  render();
+}
+
+let reflowTimer = 0;
+
+function playReflow() {
+  if (reducedMotion.matches) return;
+  clearTimeout(reflowTimer);
+  book.classList.remove('reflowing');
+  book.getBoundingClientRect(); // reinicia a animação
+  book.classList.add('reflowing');
+  reflowTimer = setTimeout(() => book.classList.remove('reflowing'), 600);
+}
+
+function updateFilterSummary() {
+  const selected = [...activeFilters.values()].reduce((sum, values) => sum + values.size, 0);
+
+  filterBadge.textContent = selected;
+  filterBadge.hidden = selected === 0;
+  filterClear.hidden = selected === 0;
+  $('filterToggle').setAttribute('aria-label', selected ? `Filtrar cartas, ${selected} ativos` : 'Filtrar cartas');
+
+  $('filterCount').textContent = cards.length === 0
+    ? 'Nenhuma carta com esses filtros'
+    : `${cards.length} de ${allCards.length} cartas`;
+}
+
+function applyFilters() {
+  const wasClosed = page === 0;
+  cards = allCards.filter(passesFilters);
+
+  // Sempre recomeça da primeira página: a anterior pode nem existir mais.
+  rebuildBook(wasClosed ? 0 : 1);
+  if (wasClosed) goTo(1);
+  else playReflow();
+
+  updateFilterSummary();
+}
+
+function toggleFilter(chip, key, value) {
+  const selected = activeFilters.get(key);
+  const on = !selected.has(value);
+  if (on) selected.add(value);
+  else selected.delete(value);
+
+  chip.setAttribute('aria-pressed', String(on));
+  applyFilters();
+}
+
+function createChip({ key, title }, value, label) {
+  const chip = document.createElement('button');
+  chip.type = 'button';
+  chip.className = 'chip';
+  chip.setAttribute('aria-pressed', 'false');
+
+  if (key === 'color') {
+    const dot = document.createElement('span');
+    dot.className = 'chip-dot';
+    dot.dataset.color = value;
+    chip.append(dot);
+  }
+  chip.append(label);
+  chip.title = `${title}: ${label}`;
+  chip.addEventListener('click', () => toggleFilter(chip, key, value));
+  return chip;
+}
+
+// Só oferece opções que existem na coleção, para nenhum filtro dar em pasta vazia sozinho.
+function buildFilters() {
+  const groups = FILTERS.map((filter) => {
+    const present = Object.entries(filter.options)
+      .filter(([value]) => allCards.some((card) => filter.matches(card, value)));
+    if (present.length === 0) return null;
+
+    const group = document.createElement('div');
+    group.className = 'filter-group';
+    const heading = document.createElement('h2');
+    heading.textContent = filter.title;
+    const chips = document.createElement('div');
+    chips.className = 'filter-chips';
+    chips.append(...present.map(([value, label]) => createChip(filter, value, label)));
+    group.append(heading, chips);
+    return group;
+  });
+  $('filterGroups').replaceChildren(...groups.filter(Boolean));
 }
 
 // Som da folha: ruído filtrado gerado na hora, sem arquivo de áudio.
@@ -404,6 +546,9 @@ book.addEventListener('click', (event) => {
     return;
   }
 
+  // O clique fora que fecha o painel de filtros não deve virar a página também.
+  if (performance.now() - filtersClosedAt < 300) return;
+
   const pocket = event.target.closest('button.pocket');
   if (pocket) {
     openZoom(cards[Number(pocket.dataset.index)], pocket);
@@ -421,6 +566,16 @@ book.addEventListener('pointermove', (event) => {
 });
 
 zoomCard.addEventListener('pointermove', (event) => trackFoil(event, zoomCard));
+
+filterPanel.addEventListener('beforetoggle', (event) => {
+  if (event.newState === 'closed') filtersClosedAt = performance.now();
+});
+
+filterClear.addEventListener('click', () => {
+  activeFilters.forEach((values) => values.clear());
+  filterPanel.querySelectorAll('.chip').forEach((chip) => chip.setAttribute('aria-pressed', 'false'));
+  applyFilters();
+});
 
 prevButton.addEventListener('click', () => step(-1));
 nextButton.addEventListener('click', () => step(1));
@@ -449,6 +604,8 @@ mobile.addEventListener('change', render);
 // Início
 
 function collectionSummary() {
+  if (cards.length < allCards.length) return `Filtro ativo: ${cards.length} de ${allCards.length} cartas.`;
+
   const total = cards.reduce((sum, card) => sum + card.qty, 0);
   const kinds = cards.length === 1 ? '1 carta diferente' : `${cards.length} cartas diferentes`;
   const pages = pageCount === 1 ? '1 página' : `${pageCount} páginas`;
@@ -461,7 +618,8 @@ async function start() {
   try {
     const response = await fetch('data/cards.json');
     if (!response.ok) throw new Error(String(response.status));
-    cards = await response.json();
+    allCards = await response.json();
+    cards = allCards;
   } catch {
     const message = $('statusMessage');
     message.textContent = 'Não consegui carregar a coleção. Se abriu o arquivo direto do disco, use um servidor local (veja o README).';
@@ -470,12 +628,9 @@ async function start() {
     return;
   }
 
-  pageCount = Math.max(1, Math.ceil(cards.length / POCKETS_PER_PAGE));
-  leafCount = 1 + Math.ceil(pageCount / 2);
-  $('endNote').textContent = `Fim da pasta. ${collectionSummary()}`;
-
-  syncLeaves();
-  render();
+  buildFilters();
+  rebuildBook(0);
+  updateFilterSummary();
 }
 
 start();

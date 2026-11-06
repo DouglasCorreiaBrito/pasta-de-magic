@@ -16,6 +16,7 @@ const IMG_DIR = join(ROOT, 'img/cards');
 const HEADERS = { 'User-Agent': 'pasta-de-magic/0.1', Accept: 'application/json' };
 const DELAY_MS = 100; // a Scryfall pede de 50 a 100 ms entre chamadas
 const COLUMNS = ['set', 'collector_number', 'lang', 'foil', 'qty'];
+const CARD_TYPES = ['creature', 'instant', 'sorcery', 'artifact', 'enchantment', 'planeswalker', 'land', 'battle'];
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -66,6 +67,18 @@ async function fetchCard({ line, set, number, lang }) {
 function imageUrls(card) {
   if (card.image_uris) return [card.image_uris.normal];
   return (card.card_faces ?? []).map((face) => face.image_uris.normal);
+}
+
+// Em cartas de 2 faces, tipo e cor são os da face da frente.
+function cardTypes(card) {
+  const [front] = card.type_line.split(' // ');
+  const [supertypes] = front.split(' — ');
+  const words = supertypes.toLowerCase().split(' ');
+  return CARD_TYPES.filter((type) => words.includes(type));
+}
+
+function cardColors(card) {
+  return card.colors ?? card.card_faces?.[0]?.colors ?? [];
 }
 
 async function downloadImage(url, fileName) {
@@ -122,6 +135,8 @@ async function main() {
       collector_number: card.collector_number,
       lang: card.lang,
       rarity: card.rarity,
+      types: cardTypes(card),
+      colors: cardColors(card),
       foil: row.foil,
       qty: row.qty,
       images,
