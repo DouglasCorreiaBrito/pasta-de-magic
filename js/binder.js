@@ -1,5 +1,5 @@
 const POCKETS_PER_PAGE = 9;
-const FLIP_MS = 820;
+const FLIP_MS = 620;
 const LIGA_URL = 'https://www.ligamagic.com.br/?view=cards/card&card=';
 const SOUND_KEY = 'pasta:som';
 
@@ -92,7 +92,7 @@ function createCover() {
   front.className = 'face face-front cover-front';
   front.innerHTML = `
     <span class="cover-stitch"></span>
-    <h1 class="cover-title">Pasta de Magic<small>Toque para abrir</small></h1>`;
+    <h1 class="cover-title"><span class="cover-dots"><i></i><i></i><i></i><i></i><i></i></span>Pasta de Magic<small>Toque para abrir</small></h1>`;
 
   const inside = document.createElement('div');
   inside.className = 'face face-back cover-inside';
