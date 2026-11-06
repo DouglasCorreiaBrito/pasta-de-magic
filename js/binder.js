@@ -81,11 +81,11 @@ function createPocket(card) {
   frame.className = 'card';
 
   const image = document.createElement('img');
-  image.src = card.images[0];
   image.alt = '';
-  image.loading = 'lazy';
   image.decoding = 'async';
   image.draggable = false;
+  image.addEventListener('load', () => frame.classList.add('is-loaded'), { once: true });
+  image.src = card.images[0];
   frame.append(image);
 
   if (card.foil) {

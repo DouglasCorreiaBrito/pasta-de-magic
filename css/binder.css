@@ -33,6 +33,7 @@
 
   --flip-ms: 620ms;
   --flip-ease: cubic-bezier(.4, .1, .2, 1);
+  --flip-midpoint: calc(var(--flip-ms) * .335); /* quando essa curva chega a 90° */
   --spring: cubic-bezier(.34, 1.56, .64, 1);
 }
 
@@ -197,9 +198,18 @@ button, a { -webkit-tap-highlight-color: transparent; }
   overflow: hidden;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  transition: visibility 0s linear var(--flip-midpoint);
 }
 
-.face-back { transform: rotateY(180deg); }
+.face-back {
+  transform: rotateY(180deg);
+  visibility: hidden;
+}
+
+/* Troca as faces quando a folha fica de perfil. Nem todo navegador respeita o
+   backface-visibility, e sem isso a frente aparece espelhada no lugar do verso. */
+.leaf.turned .face-front { visibility: hidden; }
+.leaf.turned .face-back { visibility: visible; }
 
 /* Escurece a folha enquanto ela gira, como a luz sumindo do plástico. */
 .face::after {
@@ -416,6 +426,8 @@ button.pocket:focus-visible .card { transform: translateY(-3.5%); }
 }
 
 /* Foil */
+
+.card:not(.is-loaded) .foil-layer { opacity: 0; }
 
 .foil-layer {
   position: absolute;
