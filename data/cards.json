@@ -1,72 +1,949 @@
 [
   {
-    "id": "e768c957-3a1f-42f5-853a-96942f645df5",
-    "name": "Lightning Bolt",
+    "id": "d30c5406-c30f-4c7b-8967-9eff3540f4de",
+    "name": "Tam, the Possibility",
     "printed_name": null,
-    "set": "m11",
-    "set_name": "Magic 2011",
-    "collector_number": "149",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "317",
     "lang": "en",
-    "rarity": "common",
+    "rarity": "rare",
     "types": [
-      "instant"
+      "creature"
     ],
     "colors": [
-      "R"
+      "G",
+      "U"
     ],
-    "foil": false,
-    "qty": 4,
+    "foil": true,
+    "qty": 1,
     "images": [
-      "img/cards/e768c957-3a1f-42f5-853a-96942f645df5.jpg"
+      "img/cards/d30c5406-c30f-4c7b-8967-9eff3540f4de.jpg"
     ]
   },
   {
-    "id": "29bb1b85-9444-4bfa-b622-092a6873631c",
-    "name": "Counterspell",
+    "id": "d30c5406-c30f-4c7b-8967-9eff3540f4de",
+    "name": "Tam, the Possibility",
     "printed_name": null,
-    "set": "7ed",
-    "set_name": "Seventh Edition",
-    "collector_number": "67",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "317",
     "lang": "en",
-    "rarity": "common",
+    "rarity": "rare",
     "types": [
-      "instant"
+      "creature"
+    ],
+    "colors": [
+      "G",
+      "U"
+    ],
+    "foil": false,
+    "qty": 3,
+    "images": [
+      "img/cards/d30c5406-c30f-4c7b-8967-9eff3540f4de.jpg"
+    ]
+  },
+  {
+    "id": "ca894d25-b9fc-4cd6-8746-70d8c2868721",
+    "name": "Entrust the Spark",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "131",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "sorcery"
+    ],
+    "colors": [
+      "G",
+      "U"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/ca894d25-b9fc-4cd6-8746-70d8c2868721.jpg"
+    ]
+  },
+  {
+    "id": "15139452-04fc-4870-8306-c9a6defba76d",
+    "name": "Fblthp, Impossibly Lost",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "298",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
     ],
     "colors": [
       "U"
     ],
-    "foil": false,
+    "foil": true,
     "qty": 2,
     "images": [
-      "img/cards/29bb1b85-9444-4bfa-b622-092a6873631c.jpg"
+      "img/cards/15139452-04fc-4870-8306-c9a6defba76d.jpg"
     ]
   },
   {
-    "id": "4cbc6901-6a4a-4d0a-83ea-7eefa3b35021",
-    "name": "Sol Ring",
+    "id": "0a41d10e-7dad-46fd-bd15-0ea6c89bc0aa",
+    "name": "Fblthp, Knows the Way",
     "printed_name": null,
-    "set": "c21",
-    "set_name": "Commander 2021",
-    "collector_number": "263",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "313",
     "lang": "en",
     "rarity": "uncommon",
     "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/0a41d10e-7dad-46fd-bd15-0ea6c89bc0aa.jpg"
+    ]
+  },
+  {
+    "id": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
+    "name": "Gallia, the Merrymaker",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "245",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/f27d50f0-d76e-4ce1-a8d9-d997af6a5b41.jpg"
+    ]
+  },
+  {
+    "id": "498fa810-8522-4020-b773-52ad404c9f65",
+    "name": "Gallia, Tragic Host",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "228",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/498fa810-8522-4020-b773-52ad404c9f65.jpg"
+    ]
+  },
+  {
+    "id": "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
+    "name": "Edgar, Ancient Bloodlord",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "270",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B",
+      "W"
+    ],
+    "foil": true,
+    "qty": 2,
+    "images": [
+      "img/cards/7c619fed-2394-4efc-8cdc-6df5f51c1f57.jpg"
+    ]
+  },
+  {
+    "id": "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb",
+    "name": "Edgar, Moonlit Sovereign",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "257",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 2,
+    "images": [
+      "img/cards/dad6afc9-8505-4cdd-bf79-e9ba4670f2bb.jpg"
+    ]
+  },
+  {
+    "id": "9028d31f-9c41-47e3-885b-6a869bca8178",
+    "name": "Massacre Girl, Most Wanted",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "234",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/9028d31f-9c41-47e3-885b-6a869bca8178.jpg"
+    ]
+  },
+  {
+    "id": "699874e3-1ccf-4a6c-8371-61040de82d08",
+    "name": "Rescue Girl, First Responder",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "202",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/699874e3-1ccf-4a6c-8371-61040de82d08.jpg"
+    ]
+  },
+  {
+    "id": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+    "name": "Loot, the Anomaly",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "232",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/4f6fd2fa-8bc8-4743-bbc8-b56475d64eff.jpg"
+    ]
+  },
+  {
+    "id": "3cfa4fc6-4d90-4576-a83f-6496c7f21104",
+    "name": "Loot, the Nexus",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "262",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/3cfa4fc6-4d90-4576-a83f-6496c7f21104.jpg"
+    ]
+  },
+  {
+    "id": "33d1809c-76d5-4366-b141-27dc01d638f3",
+    "name": "Marwyn, the Clearcutter",
+    "printed_name": "Marwyn, die Kahlschlägerin",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "310",
+    "lang": "de",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 2,
+    "images": [
+      "img/cards/33d1809c-76d5-4366-b141-27dc01d638f3.jpg"
+    ]
+  },
+  {
+    "id": "447c324a-1e66-44fc-9d6e-5e1bbbd7cc03",
+    "name": "Marwyn, the Preserver",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "315",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 2,
+    "images": [
+      "img/cards/447c324a-1e66-44fc-9d6e-5e1bbbd7cc03.jpg"
+    ]
+  },
+  {
+    "id": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
+    "name": "Jiang Yanggu, Alone",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "246",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/e8c1ce21-b77d-40bf-9ed1-478604e71f5f.jpg"
+    ]
+  },
+  {
+    "id": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
+    "name": "Jiang Yanggu, Never Alone",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "261",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/f5a0bb3e-8119-4739-8684-e61d1d607dcb.jpg"
+    ]
+  },
+  {
+    "id": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
+    "name": "Yoshimaru, Beloved Companion",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "209",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/384f3b7d-8d7f-41bf-bebd-64e8babe7fca.jpg"
+    ]
+  },
+  {
+    "id": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+    "name": "Yoshimaru, Scrappy Stray",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "269",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 2,
+    "images": [
+      "img/cards/b8dfd087-2434-42c6-ac4c-1decbcdde2db.jpg"
+    ]
+  },
+  {
+    "id": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
+    "name": "Winter, Team Player",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "256",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 2,
+    "images": [
+      "img/cards/df8713cd-3f4b-43ef-adbd-e37c2617c617.jpg"
+    ]
+  },
+  {
+    "id": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+    "name": "Winter, Tormented Loner",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "240",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 2,
+    "images": [
+      "img/cards/9670f754-f41f-45ac-8e8b-025ad2c0f66b.jpg"
+    ]
+  },
+  {
+    "id": "c3192390-1518-49fc-8716-f2c7a0384f39",
+    "name": "Codie, Ravenous Codex",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "168",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature",
+      "artifact"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/c3192390-1518-49fc-8716-f2c7a0384f39.jpg"
+    ]
+  },
+  {
+    "id": "1ad53db3-57e2-416d-907d-a71f63009c06",
+    "name": "Codie, Ravenous Codex",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "431",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature",
       "artifact"
     ],
     "colors": [],
     "foil": false,
     "qty": 1,
     "images": [
-      "img/cards/4cbc6901-6a4a-4d0a-83ea-7eefa3b35021.jpg"
+      "img/cards/1ad53db3-57e2-416d-907d-a71f63009c06.jpg"
     ]
   },
   {
-    "id": "73542493-cd0b-4bb7-a5b8-8f889c76e4d6",
-    "name": "Llanowar Elves",
+    "id": "efc002a4-a1ab-466c-a24f-e6f5e5f5bdb4",
+    "name": "Darksteel Angel",
     "printed_name": null,
-    "set": "m19",
-    "set_name": "Core Set 2019",
-    "collector_number": "314",
+    "set": "frc",
+    "set_name": "Reality Fracture Commander",
+    "collector_number": "98",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature",
+      "artifact"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/efc002a4-a1ab-466c-a24f-e6f5e5f5bdb4.jpg"
+    ]
+  },
+  {
+    "id": "264ff4ea-8dd3-4a57-9829-8f127956b108",
+    "name": "Memnarch, the Warden",
+    "printed_name": null,
+    "set": "frc",
+    "set_name": "Reality Fracture Commander",
+    "collector_number": "100",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature",
+      "artifact"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/264ff4ea-8dd3-4a57-9829-8f127956b108.jpg"
+    ]
+  },
+  {
+    "id": "70cbf43a-d6d0-4777-807d-537257879ca5",
+    "name": "Vindictive Triumph",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "377",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "B",
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/70cbf43a-d6d0-4777-807d-537257879ca5.jpg"
+    ]
+  },
+  {
+    "id": "fc488525-de0b-4a52-8a1a-6ee4e798474e",
+    "name": "Null Summoner",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "353",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/fc488525-de0b-4a52-8a1a-6ee4e798474e.jpg"
+    ]
+  },
+  {
+    "id": "164a17bc-789b-437f-9798-1854b5cd3dda",
+    "name": "Ingris Stingerquill",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "351",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B",
+      "R"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/164a17bc-789b-437f-9798-1854b5cd3dda.jpg"
+    ]
+  },
+  {
+    "id": "001d33b2-5e6f-4233-bd03-be85642e76e4",
+    "name": "Uldaros Theorix",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "358",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/001d33b2-5e6f-4233-bd03-be85642e76e4.jpg"
+    ]
+  },
+  {
+    "id": "c50640c8-4878-47f3-ae16-30a8c62f08be",
+    "name": "Tamiyo, Upriser Crowned",
+    "printed_name": null,
+    "set": "frc",
+    "set_name": "Reality Fracture Commander",
+    "collector_number": "96",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R",
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/c50640c8-4878-47f3-ae16-30a8c62f08be.jpg"
+    ]
+  },
+  {
+    "id": "860263c1-f8d9-4557-a068-6e17ef555f0c",
+    "name": "Solarium Sentry",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "376",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G",
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/860263c1-f8d9-4557-a068-6e17ef555f0c.jpg"
+    ]
+  },
+  {
+    "id": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
+    "name": "Karn, Gilded Guardian",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "272",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature",
+      "artifact"
+    ],
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg"
+    ]
+  },
+  {
+    "id": "64332740-1ef9-4bdd-bb30-d6e7d362da7a",
+    "name": "Oath of Teferi",
+    "printed_name": "Juramento de Teferi",
+    "set": "dom",
+    "set_name": "Dominaria",
+    "collector_number": "200",
+    "lang": "pt",
+    "rarity": "rare",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "U",
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/64332740-1ef9-4bdd-bb30-d6e7d362da7a.jpg"
+    ]
+  },
+  {
+    "id": "4fe22cd8-31e6-491b-bce2-db257668eb92",
+    "name": "Aminatou, the Fateshifter",
+    "printed_name": null,
+    "set": "sld",
+    "set_name": "Secret Lair Drop",
+    "collector_number": "1421",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "planeswalker"
+    ],
+    "colors": [
+      "B",
+      "U",
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/4fe22cd8-31e6-491b-bce2-db257668eb92.jpg"
+    ]
+  },
+  {
+    "id": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
+    "name": "Puppet Crafting",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "111",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/6b8789a6-3b63-4198-af5f-c2f2f49fafd9.jpg"
+    ]
+  },
+  {
+    "id": "b06313ea-bf64-407b-878a-a2764055c851",
+    "name": "Carnivorous Cultivator // Enroot",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "430",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/b06313ea-bf64-407b-878a-a2764055c851.jpg"
+    ]
+  },
+  {
+    "id": "930b89c3-4433-48de-829f-20fc3dbfced9",
+    "name": "Gardenize",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "103",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/930b89c3-4433-48de-829f-20fc3dbfced9.jpg"
+    ]
+  },
+  {
+    "id": "c60d4862-9615-4522-8724-489065d6ef6b",
+    "name": "Gardenize",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "345",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/c60d4862-9615-4522-8724-489065d6ef6b.jpg"
+    ]
+  },
+  {
+    "id": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+    "name": "Greenhouse Propagator",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "104",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg"
+    ]
+  },
+  {
+    "id": "decca9e3-5ca8-4b48-8ec9-23b26ca683cb",
+    "name": "Verdant Kraken",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "375",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/decca9e3-5ca8-4b48-8ec9-23b26ca683cb.jpg"
+    ]
+  },
+  {
+    "id": "87d2bb1a-7dbf-41bc-bbfd-20e25fe19f52",
+    "name": "Omnipresence",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "331",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/87d2bb1a-7dbf-41bc-bbfd-20e25fe19f52.jpg"
+    ]
+  },
+  {
+    "id": "071ed239-6875-4090-94b3-56b246a9407b",
+    "name": "Simulacrum Shaper",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "332",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/071ed239-6875-4090-94b3-56b246a9407b.jpg"
+    ]
+  },
+  {
+    "id": "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09",
+    "name": "Hunter's Axe",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "108",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "artifact"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09.jpg"
+    ]
+  },
+  {
+    "id": "1b09f45d-5224-4b2b-83ce-4f1de6357fd8",
+    "name": "Tarmogoyf",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "374",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/1b09f45d-5224-4b2b-83ce-4f1de6357fd8.jpg"
+    ]
+  },
+  {
+    "id": "75918859-c93f-41b4-9ad0-a4a96c389f0d",
+    "name": "Elvish Mystic",
+    "printed_name": null,
+    "set": "cmm",
+    "set_name": "Commander Masters",
+    "collector_number": "284",
     "lang": "en",
     "rarity": "common",
     "types": [
@@ -76,20 +953,272 @@
       "G"
     ],
     "foil": false,
-    "qty": 3,
+    "qty": 1,
     "images": [
-      "img/cards/73542493-cd0b-4bb7-a5b8-8f889c76e4d6.jpg"
+      "img/cards/75918859-c93f-41b4-9ad0-a4a96c389f0d.jpg"
     ]
   },
   {
-    "id": "b6bafa7b-62a4-477c-b2f5-6b9d26c6cbf4",
-    "name": "Swords to Plowshares",
+    "id": "d9c02310-6a14-45c2-ae8c-b0fff7245673",
+    "name": "Llanowar Elves",
     "printed_name": null,
-    "set": "ema",
-    "set_name": "Eternal Masters",
-    "collector_number": "32",
+    "set": "j25",
+    "set_name": "Foundations Jumpstart",
+    "collector_number": "149",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/d9c02310-6a14-45c2-ae8c-b0fff7245673.jpg"
+    ]
+  },
+  {
+    "id": "9b5336e8-acbd-4326-ad6d-17a70070ff98",
+    "name": "Terastodon",
+    "printed_name": null,
+    "set": "p30a",
+    "set_name": "30th Anniversary Play Promos",
+    "collector_number": "18",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/9b5336e8-acbd-4326-ad6d-17a70070ff98.jpg"
+    ]
+  },
+  {
+    "id": "2d378437-4fc1-4004-a49a-98d7bac36ef5",
+    "name": "Cultivate",
+    "printed_name": null,
+    "set": "blc",
+    "set_name": "Bloomburrow Commander",
+    "collector_number": "212",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "sorcery"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/2d378437-4fc1-4004-a49a-98d7bac36ef5.jpg"
+    ]
+  },
+  {
+    "id": "382bfdec-ba99-4bf4-8461-34eee979f9dc",
+    "name": "Nature's Claim",
+    "printed_name": null,
+    "set": "mb2",
+    "set_name": "Mystery Booster 2",
+    "collector_number": "69",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/382bfdec-ba99-4bf4-8461-34eee979f9dc.jpg"
+    ]
+  },
+  {
+    "id": "f9f617e9-4142-4c49-ad6e-aaaeee91d59c",
+    "name": "Fyndhorn Elves",
+    "printed_name": null,
+    "set": "fdc",
+    "set_name": "Foundations Commander",
+    "collector_number": "204",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/f9f617e9-4142-4c49-ad6e-aaaeee91d59c.jpg"
+    ]
+  },
+  {
+    "id": "7cdf8ab8-f221-4f7b-9af9-3849cad1f596",
+    "name": "Ilysian Caryatid",
+    "printed_name": null,
+    "set": "thb",
+    "set_name": "Theros Beyond Death",
+    "collector_number": "174",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "G"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/7cdf8ab8-f221-4f7b-9af9-3849cad1f596.jpg"
+    ]
+  },
+  {
+    "id": "dcb1b131-fee7-455f-a6e7-b94471288ed7",
+    "name": "Germinate Recruits",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "334",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/dcb1b131-fee7-455f-a6e7-b94471288ed7.jpg"
+    ]
+  },
+  {
+    "id": "ac0bd1be-36cb-483f-9c47-2714e534cb6c",
+    "name": "Repurposed Enforcer",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "335",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/ac0bd1be-36cb-483f-9c47-2714e534cb6c.jpg"
+    ]
+  },
+  {
+    "id": "35000e93-85d3-44f8-976a-5918ee4c71e0",
+    "name": "Repurposed Enforcer",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "19",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg"
+    ]
+  },
+  {
+    "id": "50326a2a-7e10-464b-a97e-e880bda0558c",
+    "name": "Way of the Healer",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "207",
     "lang": "en",
     "rarity": "uncommon",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/50326a2a-7e10-464b-a97e-e880bda0558c.jpg"
+    ]
+  },
+  {
+    "id": "1a03bb37-70fe-4d70-880e-d6214bb250d6",
+    "name": "Teferi's Reproach",
+    "printed_name": null,
+    "set": "frc",
+    "set_name": "Reality Fracture Commander",
+    "collector_number": "91",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/1a03bb37-70fe-4d70-880e-d6214bb250d6.jpg"
+    ]
+  },
+  {
+    "id": "77a1ef5a-9ebf-4e23-97c6-39ff744c84da",
+    "name": "Dack Fayden, Helping Hand",
+    "printed_name": null,
+    "set": "frc",
+    "set_name": "Reality Fracture Commander",
+    "collector_number": "89",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/77a1ef5a-9ebf-4e23-97c6-39ff744c84da.jpg"
+    ]
+  },
+  {
+    "id": "490dae91-94ce-42a9-a11f-6c5e77c4e486",
+    "name": "Loyal Tutor",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "14",
+    "lang": "en",
+    "rarity": "rare",
     "types": [
       "instant"
     ],
@@ -99,60 +1228,689 @@
     "foil": true,
     "qty": 1,
     "images": [
-      "img/cards/b6bafa7b-62a4-477c-b2f5-6b9d26c6cbf4.jpg"
+      "img/cards/490dae91-94ce-42a9-a11f-6c5e77c4e486.jpg"
     ]
   },
   {
-    "id": "11bf83bb-c95b-4b4f-9a56-ce7a1816307a",
-    "name": "Delver of Secrets // Insectile Aberration",
+    "id": "1eaec01c-8178-49d1-a140-4cf41ef1a074",
+    "name": "Loyal Tutor",
     "printed_name": null,
-    "set": "isd",
-    "set_name": "Innistrad",
-    "collector_number": "51",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "404",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/1eaec01c-8178-49d1-a140-4cf41ef1a074.jpg"
+    ]
+  },
+  {
+    "id": "8cbcd273-a7eb-40b1-a7b6-7aafcb15c141",
+    "name": "Kindred Judgment",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "322",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "sorcery"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/8cbcd273-a7eb-40b1-a7b6-7aafcb15c141.jpg"
+    ]
+  },
+  {
+    "id": "1a59d5b1-12d6-486b-bd29-ca371359addd",
+    "name": "Way of the Mentor",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "208",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg"
+    ]
+  },
+  {
+    "id": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
+    "name": "Yuriko, Blade of the Mighty",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "210",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/ccbe92a5-42bc-4228-9d5a-212df2f5dc15.jpg"
+    ]
+  },
+  {
+    "id": "b72b39fd-507d-432b-b5b0-5657e5ed0a47",
+    "name": "Village Bell-Ringer",
+    "printed_name": null,
+    "set": "moc",
+    "set_name": "March of the Machine Commander",
+    "collector_number": "216",
     "lang": "en",
     "rarity": "common",
     "types": [
       "creature"
     ],
     "colors": [
-      "U"
+      "W"
     ],
     "foil": false,
-    "qty": 2,
+    "qty": 1,
     "images": [
-      "img/cards/11bf83bb-c95b-4b4f-9a56-ce7a1816307a.jpg",
-      "img/cards/11bf83bb-c95b-4b4f-9a56-ce7a1816307a-back.jpg"
+      "img/cards/b72b39fd-507d-432b-b5b0-5657e5ed0a47.jpg"
     ]
   },
   {
-    "id": "1cfdd410-391b-4b71-8139-f5a30653097a",
-    "name": "Tarmogoyf",
+    "id": "aab9ee86-10da-41f2-b0ec-2b18af4011a0",
+    "name": "Lae'zel, Vlaakith's Champion",
+    "printed_name": "Lae'zel, Campeã de Vlaakith",
+    "set": "clb",
+    "set_name": "Commander Legends: Battle for Baldur's Gate",
+    "collector_number": "29",
+    "lang": "pt",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/aab9ee86-10da-41f2-b0ec-2b18af4011a0.jpg"
+    ]
+  },
+  {
+    "id": "192eab08-3fec-46cb-9237-2866e3bd08b8",
+    "name": "Archon of Emeria",
     "printed_name": null,
-    "set": "mm2",
-    "set_name": "Modern Masters 2015",
-    "collector_number": "165",
+    "set": "mb2",
+    "set_name": "Mystery Booster 2",
+    "collector_number": "4",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/192eab08-3fec-46cb-9237-2866e3bd08b8.jpg"
+    ]
+  },
+  {
+    "id": "f87cf997-14b5-4a2c-a7d1-34b7de6561a2",
+    "name": "Swords to Plowshares",
+    "printed_name": null,
+    "set": "tdc",
+    "set_name": "Tarkir: Dragonstorm Commander",
+    "collector_number": "134",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "W"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/f87cf997-14b5-4a2c-a7d1-34b7de6561a2.jpg"
+    ]
+  },
+  {
+    "id": "5fd4f195-ee14-4aff-91b0-7ed5b552fd35",
+    "name": "Dark Matter Manipulator",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "340",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/5fd4f195-ee14-4aff-91b0-7ed5b552fd35.jpg"
+    ]
+  },
+  {
+    "id": "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d",
+    "name": "Way of the Necromancer",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "239",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/a0ff9689-ea49-4fff-b37c-4abbaeb0f73d.jpg"
+    ]
+  },
+  {
+    "id": "ddefddbc-c769-4e53-a9b3-087578ae8bc0",
+    "name": "Liliana the Repentant",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "305",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/ddefddbc-c769-4e53-a9b3-087578ae8bc0.jpg"
+    ]
+  },
+  {
+    "id": "a18ea67e-05eb-47c8-91ae-3ebc5b47aa0f",
+    "name": "Rise of the Deathbringer",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "454",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/a18ea67e-05eb-47c8-91ae-3ebc5b47aa0f.jpg"
+    ]
+  },
+  {
+    "id": "9fb84b18-0775-44eb-83af-5dcb69518360",
+    "name": "Bloodline Recollector // Ancestral Craving",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "427",
     "lang": "en",
     "rarity": "mythic",
     "types": [
       "creature"
     ],
     "colors": [
-      "G"
+      "B"
     ],
     "foil": true,
     "qty": 1,
     "images": [
-      "img/cards/1cfdd410-391b-4b71-8139-f5a30653097a.jpg"
+      "img/cards/9fb84b18-0775-44eb-83af-5dcb69518360.jpg"
     ]
   },
   {
-    "id": "1fa890a0-5bb4-43b8-a2f6-e58f48208a34",
-    "name": "Academy Loremaster",
-    "printed_name": "Mestra do Saber da Academia",
-    "set": "dmu",
-    "set_name": "Dominaria United",
-    "collector_number": "40",
-    "lang": "pt",
+    "id": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
+    "name": "Solve for Disappointment",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "67",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "sorcery"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/7beaa8c9-1a2c-4c88-b579-91e371d8d9e3.jpg"
+    ]
+  },
+  {
+    "id": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
+    "name": "Cast Away Doubt",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "51",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "sorcery"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d.jpg"
+    ]
+  },
+  {
+    "id": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
+    "name": "Proft, Sinister Mastermind",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "235",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg"
+    ]
+  },
+  {
+    "id": "05cb9804-b2db-4de4-8897-7881536630f4",
+    "name": "Teyo, Diamondblade Mage",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "306",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/05cb9804-b2db-4de4-8897-7881536630f4.jpg"
+    ]
+  },
+  {
+    "id": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+    "name": "Last Gasp",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "56",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/2381d123-d8c7-4822-98fe-b1c365beb5ed.jpg"
+    ]
+  },
+  {
+    "id": "1eb25a6c-d6b4-465d-990e-f1ab86b26b69",
+    "name": "Liliana the Repentant",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "231",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg"
+    ]
+  },
+  {
+    "id": "02b1bf77-f78b-4a48-8ff8-a0d3b0aeafaa",
+    "name": "Sanctum Lurker",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "342",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "B"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/02b1bf77-f78b-4a48-8ff8-a0d3b0aeafaa.jpg"
+    ]
+  },
+  {
+    "id": "5111c3cd-ccfb-4ed6-9311-741f9d1dc524",
+    "name": "Pyre Rhymer // Molten Tide",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "429",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/5111c3cd-ccfb-4ed6-9311-741f9d1dc524.jpg"
+    ]
+  },
+  {
+    "id": "2b0ebea0-86de-4da4-9fe8-dacc1e75c161",
+    "name": "Pyre Rhymer // Molten Tide",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "91",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/2b0ebea0-86de-4da4-9fe8-dacc1e75c161.jpg"
+    ]
+  },
+  {
+    "id": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
+    "name": "Stingcaster Mage",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "93",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg"
+    ]
+  },
+  {
+    "id": "086ef095-32ad-4311-a40b-996c5f7b86cf",
+    "name": "Stingcaster Mage",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "329",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/086ef095-32ad-4311-a40b-996c5f7b86cf.jpg"
+    ]
+  },
+  {
+    "id": "32dcc615-910c-413b-8774-d4db32e80e19",
+    "name": "Master of Barbs",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "344",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/32dcc615-910c-413b-8774-d4db32e80e19.jpg"
+    ]
+  },
+  {
+    "id": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+    "name": "Ajani Unrelenting",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "242",
+    "lang": "en",
+    "rarity": "mythic",
+    "types": [
+      "planeswalker"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5.jpg"
+    ]
+  },
+  {
+    "id": "f909fe3b-c349-4a19-90ad-aa51f8e73b66",
+    "name": "Samut, Hazoret's Champion",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "311",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/f909fe3b-c349-4a19-90ad-aa51f8e73b66.jpg"
+    ]
+  },
+  {
+    "id": "6d86e410-20c4-4248-96bf-5780ece6274a",
+    "name": "Way of the Warlord",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "255",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/6d86e410-20c4-4248-96bf-5780ece6274a.jpg"
+    ]
+  },
+  {
+    "id": "d061676d-093a-47ac-9064-3edcacbc4485",
+    "name": "Draconic Visitor",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "368",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/d061676d-093a-47ac-9064-3edcacbc4485.jpg"
+    ]
+  },
+  {
+    "id": "e0bad302-16af-48c9-a33b-2def7daf527d",
+    "name": "Ajani's Anguish",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "367",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/e0bad302-16af-48c9-a33b-2def7daf527d.jpg"
+    ]
+  },
+  {
+    "id": "3ab341a1-525d-4493-b4d1-a4c025649205",
+    "name": "Identity Echo",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "371",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/3ab341a1-525d-4493-b4d1-a4c025649205.jpg"
+    ]
+  },
+  {
+    "id": "7a050532-1e75-4212-acb0-ec740378af10",
+    "name": "Chaos Warp",
+    "printed_name": null,
+    "set": "blc",
+    "set_name": "Bloomburrow Commander",
+    "collector_number": "115",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "instant"
+    ],
+    "colors": [
+      "R"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/7a050532-1e75-4212-acb0-ec740378af10.jpg"
+    ]
+  },
+  {
+    "id": "6330415d-324c-4170-9269-eb024dc9e5a3",
+    "name": "Variable Chaser // Arc of Fortune",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "426",
+    "lang": "en",
     "rarity": "rare",
     "types": [
       "creature"
@@ -163,49 +1921,995 @@
     "foil": false,
     "qty": 1,
     "images": [
-      "img/cards/1fa890a0-5bb4-43b8-a2f6-e58f48208a34.jpg"
+      "img/cards/6330415d-324c-4170-9269-eb024dc9e5a3.jpg"
     ]
   },
   {
-    "id": "5fe2d063-a9b1-4693-9841-923210bf09d7",
-    "name": "Serra Angel",
+    "id": "83582080-bbd8-421e-80d3-66a7144f03fd",
+    "name": "Diviner of Victory // Unwind History",
     "printed_name": null,
-    "set": "m15",
-    "set_name": "Magic 2015",
-    "collector_number": "273",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "425",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "U"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/83582080-bbd8-421e-80d3-66a7144f03fd.jpg"
+    ]
+  },
+  {
+    "id": "b8466593-40fe-4557-89b2-760c1c92087b",
+    "name": "Proft, Consulting Detective",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "218",
     "lang": "en",
     "rarity": "uncommon",
     "types": [
       "creature"
     ],
     "colors": [
-      "W"
+      "U"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/b8466593-40fe-4557-89b2-760c1c92087b.jpg"
+    ]
+  },
+  {
+    "id": "00af4e87-5576-4a43-9422-4c35b2b66775",
+    "name": "Ruric Thar, Biomagus",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "219",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "U"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/00af4e87-5576-4a43-9422-4c35b2b66775.jpg"
+    ]
+  },
+  {
+    "id": "c4effc17-0d0e-423a-b5f2-597ea6c71f67",
+    "name": "Plan for All Outcomes",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "35",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "enchantment"
+    ],
+    "colors": [
+      "U"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/c4effc17-0d0e-423a-b5f2-597ea6c71f67.jpg"
+    ]
+  },
+  {
+    "id": "f45ba926-6496-4bd4-96eb-663946d56bbf",
+    "name": "Yargle, Goliath of Otaria",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "225",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "U"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/f45ba926-6496-4bd4-96eb-663946d56bbf.jpg"
+    ]
+  },
+  {
+    "id": "a62e9d0c-a802-4a14-9627-d784d6694375",
+    "name": "Sphinx of False Conclusions",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "338",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "U"
     ],
     "foil": false,
     "qty": 1,
     "images": [
-      "img/cards/5fe2d063-a9b1-4693-9841-923210bf09d7.jpg"
+      "img/cards/a62e9d0c-a802-4a14-9627-d784d6694375.jpg"
     ]
   },
   {
-    "id": "ac506c17-adc8-49c6-9d8d-43db7cb1ec9d",
-    "name": "Liliana of the Veil",
+    "id": "a62e9d0c-a802-4a14-9627-d784d6694375",
+    "name": "Sphinx of False Conclusions",
     "printed_name": null,
-    "set": "isd",
-    "set_name": "Innistrad",
-    "collector_number": "105",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "338",
     "lang": "en",
-    "rarity": "mythic",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "U"
+    ],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/a62e9d0c-a802-4a14-9627-d784d6694375.jpg"
+    ]
+  },
+  {
+    "id": "dafe1979-fda7-4164-a362-b9f789f25710",
+    "name": "Jace, Reality Sculptor",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "300",
+    "lang": "en",
+    "rarity": "rare",
     "types": [
       "planeswalker"
     ],
     "colors": [
-      "B"
+      "U"
     ],
     "foil": false,
     "qty": 1,
     "images": [
-      "img/cards/ac506c17-adc8-49c6-9d8d-43db7cb1ec9d.jpg"
+      "img/cards/dafe1979-fda7-4164-a362-b9f789f25710.jpg"
+    ]
+  },
+  {
+    "id": "a46d570d-2abb-4270-87bc-b4b3baf5ed3b",
+    "name": "Theorist's Proxy",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "339",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "creature"
+    ],
+    "colors": [
+      "U"
+    ],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/a46d570d-2abb-4270-87bc-b4b3baf5ed3b.jpg"
+    ]
+  },
+  {
+    "id": "6ecbeb07-0f45-49bf-9a12-f4ca09969122",
+    "name": "Treasure Chest",
+    "printed_name": null,
+    "set": "afr",
+    "set_name": "Adventures in the Forgotten Realms",
+    "collector_number": "252",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "artifact"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/6ecbeb07-0f45-49bf-9a12-f4ca09969122.jpg"
+    ]
+  },
+  {
+    "id": "028f284b-4b4c-44e2-8ded-bc59ec71250f",
+    "name": "Bag End Banquet",
+    "printed_name": null,
+    "set": "hoc",
+    "set_name": "The Hobbit Eternal",
+    "collector_number": "5",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "artifact"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/028f284b-4b4c-44e2-8ded-bc59ec71250f.jpg"
+    ]
+  },
+  {
+    "id": "e99c4fec-eb21-4288-a12f-1c58c4946bae",
+    "name": "Fellwar Stone",
+    "printed_name": null,
+    "set": "blc",
+    "set_name": "Bloomburrow Commander",
+    "collector_number": "269",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "artifact"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/e99c4fec-eb21-4288-a12f-1c58c4946bae.jpg"
+    ]
+  },
+  {
+    "id": "c193aab3-e53a-40ff-bd30-892170a88ff9",
+    "name": "Swiftfoot Boots",
+    "printed_name": null,
+    "set": "fdc",
+    "set_name": "Foundations Commander",
+    "collector_number": "291",
+    "lang": "en",
+    "rarity": "uncommon",
+    "types": [
+      "artifact"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/c193aab3-e53a-40ff-bd30-892170a88ff9.jpg"
+    ]
+  },
+  {
+    "id": "dbb7927d-c3c4-4464-8ada-bcd8466b2012",
+    "name": "Multiclass Baldric",
+    "printed_name": null,
+    "set": "clb",
+    "set_name": "Commander Legends: Battle for Baldur's Gate",
+    "collector_number": "684",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "artifact"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/dbb7927d-c3c4-4464-8ada-bcd8466b2012.jpg"
+    ]
+  },
+  {
+    "id": "39c805e3-82cd-42a9-80fe-8d81712a94ea",
+    "name": "Konstrari Annex",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "183",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg"
+    ]
+  },
+  {
+    "id": "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a",
+    "name": "Vigorbloom Annex",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "194",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a.jpg"
+    ]
+  },
+  {
+    "id": "3223e5db-5cc4-42f9-ae9e-ff58abc7c390",
+    "name": "Dedicated Commons",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "175",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/3223e5db-5cc4-42f9-ae9e-ff58abc7c390.jpg"
+    ]
+  },
+  {
+    "id": "6ede3143-69ac-4cbe-922a-d25b07c26da7",
+    "name": "Stingerquill Annex",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "190",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/6ede3143-69ac-4cbe-922a-d25b07c26da7.jpg"
+    ]
+  },
+  {
+    "id": "797b266b-4403-4ba4-9ffd-9c62fd981153",
+    "name": "Yavimaya Coast",
+    "printed_name": null,
+    "set": "blc",
+    "set_name": "Bloomburrow Commander",
+    "collector_number": "355",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/797b266b-4403-4ba4-9ffd-9c62fd981153.jpg"
+    ]
+  },
+  {
+    "id": "92d37929-fc8b-40a9-8c25-ca79ae750d58",
+    "name": "Access Tunnel",
+    "printed_name": null,
+    "set": "pw26",
+    "set_name": "Wizards Play Network 2026",
+    "collector_number": "9",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/92d37929-fc8b-40a9-8c25-ca79ae750d58.jpg"
+    ]
+  },
+  {
+    "id": "9ed2a7c6-aa51-4b0e-a2d7-5f8d12c42e78",
+    "name": "Canopy Vista",
+    "printed_name": null,
+    "set": "blc",
+    "set_name": "Bloomburrow Commander",
+    "collector_number": "296",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/9ed2a7c6-aa51-4b0e-a2d7-5f8d12c42e78.jpg"
+    ]
+  },
+  {
+    "id": "2cac144f-fa8a-4f04-9007-f7b7ab27a4b3",
+    "name": "Shipwreck Marsh",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "401",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/2cac144f-fa8a-4f04-9007-f7b7ab27a4b3.jpg"
+    ]
+  },
+  {
+    "id": "9a467560-6676-4fc2-9400-768a79650aa4",
+    "name": "Room of Refuge",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "188",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/9a467560-6676-4fc2-9400-768a79650aa4.jpg"
+    ]
+  },
+  {
+    "id": "01bdab5b-c1a6-4459-8e93-37602c8548e2",
+    "name": "Deserted Beach",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "397",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/01bdab5b-c1a6-4459-8e93-37602c8548e2.jpg"
+    ]
+  },
+  {
+    "id": "e8f607b3-f37c-49e7-8eb8-a14b2153f30e",
+    "name": "Theorist's Sanctum",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "381",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/e8f607b3-f37c-49e7-8eb8-a14b2153f30e.jpg"
+    ]
+  },
+  {
+    "id": "bc4cd881-9c34-4cf9-8afe-050e803f34a6",
+    "name": "Island",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "385",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg"
+    ]
+  },
+  {
+    "id": "b256a981-ba4b-43b9-83a3-f31a105a2c26",
+    "name": "Island",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "387",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/b256a981-ba4b-43b9-83a3-f31a105a2c26.jpg"
+    ]
+  },
+  {
+    "id": "b256a981-ba4b-43b9-83a3-f31a105a2c26",
+    "name": "Island",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "387",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/b256a981-ba4b-43b9-83a3-f31a105a2c26.jpg"
+    ]
+  },
+  {
+    "id": "6ff3f00e-4ec2-41ef-bd19-fa830480245d",
+    "name": "Island",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "386",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/6ff3f00e-4ec2-41ef-bd19-fa830480245d.jpg"
+    ]
+  },
+  {
+    "id": "c6aa89a8-3584-4906-b9a9-41ef2f021f8e",
+    "name": "Island",
+    "printed_name": null,
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "collector_number": "190",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/c6aa89a8-3584-4906-b9a9-41ef2f021f8e.jpg"
+    ]
+  },
+  {
+    "id": "739aaaac-c424-4ea7-a084-62a6fc0438b0",
+    "name": "Island",
+    "printed_name": null,
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "collector_number": "195",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/739aaaac-c424-4ea7-a084-62a6fc0438b0.jpg"
+    ]
+  },
+  {
+    "id": "1c2ac08e-3810-46f4-94ab-8b32986f9185",
+    "name": "Forest",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "395",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/1c2ac08e-3810-46f4-94ab-8b32986f9185.jpg"
+    ]
+  },
+  {
+    "id": "a0d12fc5-c7bd-4734-9259-98fe65241f60",
+    "name": "Forest",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "396",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/a0d12fc5-c7bd-4734-9259-98fe65241f60.jpg"
+    ]
+  },
+  {
+    "id": "0000419b-0bba-4488-8f7a-6194544ce91e",
+    "name": "Forest",
+    "printed_name": null,
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "collector_number": "280",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/0000419b-0bba-4488-8f7a-6194544ce91e.jpg"
+    ]
+  },
+  {
+    "id": "3a7a2a54-47e1-4694-b4f6-b7d659bb2b1f",
+    "name": "Forest",
+    "printed_name": null,
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "collector_number": "279",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/3a7a2a54-47e1-4694-b4f6-b7d659bb2b1f.jpg"
+    ]
+  },
+  {
+    "id": "f791876a-f3fb-45b8-90a9-af846d8b8f74",
+    "name": "Forest",
+    "printed_name": null,
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "collector_number": "278",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/f791876a-f3fb-45b8-90a9-af846d8b8f74.jpg"
+    ]
+  },
+  {
+    "id": "208014f4-eed8-4856-a9d9-dbac10c4aa6a",
+    "name": "Forest",
+    "printed_name": null,
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "collector_number": "281",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 1,
+    "images": [
+      "img/cards/208014f4-eed8-4856-a9d9-dbac10c4aa6a.jpg"
+    ]
+  },
+  {
+    "id": "796b72af-5078-427d-b566-9bccad17090f",
+    "name": "Plains",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "382",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/796b72af-5078-427d-b566-9bccad17090f.jpg"
+    ]
+  },
+  {
+    "id": "57999b70-74c6-415a-aef8-3afc546e7557",
+    "name": "Plains",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "383",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/57999b70-74c6-415a-aef8-3afc546e7557.jpg"
+    ]
+  },
+  {
+    "id": "48964496-cbbb-4646-a257-153497bbc83d",
+    "name": "Plains",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "384",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/48964496-cbbb-4646-a257-153497bbc83d.jpg"
+    ]
+  },
+  {
+    "id": "e67ce864-bf29-42f1-81ca-a98022892eec",
+    "name": "Plains",
+    "printed_name": null,
+    "set": "dsk",
+    "set_name": "Duskmourn: House of Horror",
+    "collector_number": "272",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 10,
+    "images": [
+      "img/cards/e67ce864-bf29-42f1-81ca-a98022892eec.jpg"
+    ]
+  },
+  {
+    "id": "ddc91faf-dd36-4c26-b3b4-0a6a624b5663",
+    "name": "Mountain",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "392",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/ddc91faf-dd36-4c26-b3b4-0a6a624b5663.jpg"
+    ]
+  },
+  {
+    "id": "a49ae3b7-4b1f-41b6-8c05-cbdc44f070cb",
+    "name": "Mountain",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "393",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/a49ae3b7-4b1f-41b6-8c05-cbdc44f070cb.jpg"
+    ]
+  },
+  {
+    "id": "8c8841b2-9b4e-4f65-8e30-1e9423cb8fbc",
+    "name": "Mountain",
+    "printed_name": null,
+    "set": "dsk",
+    "set_name": "Duskmourn: House of Horror",
+    "collector_number": "275",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": false,
+    "qty": 12,
+    "images": [
+      "img/cards/8c8841b2-9b4e-4f65-8e30-1e9423cb8fbc.jpg"
+    ]
+  },
+  {
+    "id": "e8418418-10bb-48e1-83ed-0081390384b4",
+    "name": "Swamp",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "388",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/e8418418-10bb-48e1-83ed-0081390384b4.jpg"
+    ]
+  },
+  {
+    "id": "140ba675-3922-48cf-b6ec-8639267dcab8",
+    "name": "Swamp",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "389",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/140ba675-3922-48cf-b6ec-8639267dcab8.jpg"
+    ]
+  },
+  {
+    "id": "d56b5831-e39a-4898-be06-b84f62d38456",
+    "name": "Swamp",
+    "printed_name": null,
+    "set": "ltr",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "collector_number": "717",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/d56b5831-e39a-4898-be06-b84f62d38456.jpg"
+    ]
+  },
+  {
+    "id": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
+    "name": "Hall of Echoes",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "179",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/4a771010-b397-4849-ac9b-08e4dd5d6a72.jpg"
+    ]
+  },
+  {
+    "id": "5140f962-62f3-40fd-a322-44896c7e2613",
+    "name": "Fatehold Annex",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "177",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/5140f962-62f3-40fd-a322-44896c7e2613.jpg"
+    ]
+  },
+  {
+    "id": "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
+    "name": "Formidable Commons",
+    "printed_name": null,
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "collector_number": "178",
+    "lang": "en",
+    "rarity": "common",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/e6ca6c3e-f145-42d6-8a17-90770c15afaf.jpg"
+    ]
+  },
+  {
+    "id": "0511e232-2a72-40f5-a400-4f7ebc442d17",
+    "name": "Branchloft Pathway // Boulderloft Pathway",
+    "printed_name": null,
+    "set": "znr",
+    "set_name": "Zendikar Rising",
+    "collector_number": "258",
+    "lang": "en",
+    "rarity": "rare",
+    "types": [
+      "land"
+    ],
+    "colors": [],
+    "foil": true,
+    "qty": 1,
+    "images": [
+      "img/cards/0511e232-2a72-40f5-a400-4f7ebc442d17.jpg",
+      "img/cards/0511e232-2a72-40f5-a400-4f7ebc442d17-back.jpg"
     ]
   }
 ]

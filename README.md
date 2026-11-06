@@ -7,12 +7,16 @@ Uma pasta virtual para folhear uma coleção de cartas de Magic. O site é só H
 1. Edite `data/collection.csv`, com uma linha por impressão:
 
    ```csv
-   set,collector_number,lang,foil,qty
-   m11,149,en,false,4
-   dmu,40,pt,false,1
+   link da carta,adicional,unidades
+   https://scryfall.com/card/fra/317/tam-the-possibility,foil,1
+   https://scryfall.com/card/fra/317/tam-the-possibility,,3
+   https://scryfall.com/card/fra/310/de/marwyn-die-kahlschlägerin,foil,2
+   https://scryfall.com/card/dom/200/oath-of-teferi,pt-br,1
    ```
 
-   `set` e `collector_number` aparecem na página da carta na Scryfall. `lang` usa os códigos da Scryfall (`en`, `pt`, `ja`...).
+   - **link da carta:** o endereço da impressão certa na Scryfall. Se o link trouxer o idioma, como `/de/`, ele é usado. Sem idioma, a carta é em inglês.
+   - **adicional:** `foil`, um idioma (`pt-br`, `de`, `ja`...) ou os dois separados por espaço.
+   - **unidades:** a quantidade. Em branco vale 1, com um aviso.
 
 2. Gere os dados e as imagens (precisa de Node 18 ou mais novo):
 
@@ -20,7 +24,7 @@ Uma pasta virtual para folhear uma coleção de cartas de Magic. O site é só H
    node scripts/build-cards.mjs
    ```
 
-   Imagens já baixadas são reaproveitadas. Se uma linha der erro, o script informa o número dela e não altera `data/cards.json`.
+   Imagens já baixadas são reaproveitadas, e as que saíram da coleção são apagadas. Se alguma linha der erro, o script lista todas as linhas com problema e não altera `data/cards.json`.
 
 3. Faça commit e push. O GitHub Pages publica sozinho.
 
