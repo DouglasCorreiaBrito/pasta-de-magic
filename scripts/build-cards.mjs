@@ -142,7 +142,16 @@ async function buildCard(row, used) {
     throw new Error(`${card.name} (${row.set}/${row.number}) só existe em ${card.finishes.join(', ')}, mas a linha não diz foil`);
   }
 
-  const urls = imageUrls(card);
+  // A Scryfall devolve uma imagem "placeholder" (carimbo de imagem indisponível) quando
+  // a impressão em outro idioma não tem scan. Nesse caso a pasta mostra a imagem em inglês.
+  let imageCard = card;
+  if (card.lang !== 'en' && card.image_status === 'placeholder') {
+    imageCard = await fetchCard({ ...row, lang: 'en' });
+    await sleep(DELAY_MS);
+    console.log(`Imagem em inglês para ${card.name} (${row.set}/${row.number}/${row.lang}): a Scryfall só tem placeholder.`);
+  }
+
+  const urls = imageUrls(imageCard);
   if (urls.length === 0) throw new Error(`${card.name} não tem imagem`);
 
   const images = [];
@@ -170,7 +179,7 @@ async function buildCard(row, used) {
     foil: row.foil,
     qty: row.qty,
     images,
-    image_status: card.image_status,
+    image_status: imageCard.image_status,
   };
 }
 

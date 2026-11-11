@@ -40,7 +40,7 @@ Depois abra http://localhost:8123.
 
 ## Cartas em português
 
-A Scryfall tem imagens reais para as edições recentes, mas algumas impressões antigas usam a imagem em inglês com o selo "Localized Image Not Available". Os metadados não distinguem esses casos com segurança, porque os dois aparecem como `lowres`. Vale olhar as cartas em português depois de gerar os dados.
+A Scryfall tem imagens reais para as edições recentes, mas algumas impressões antigas usam a imagem em inglês com o selo "Localized Image Not Available". Os metadados não distinguem esses casos com segurança, porque os dois aparecem como `lowres`. Vale olhar as cartas em português depois de gerar os dados. Quando a Scryfall marca a imagem em português como `placeholder`, o script usa a imagem em inglês da mesma impressão e avisa no terminal.
 
 ## Preço
 
